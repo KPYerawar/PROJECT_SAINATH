@@ -1,0 +1,24 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Wed Apr  1 06:18:30 2026
+[*]
+[dumpfile] "/home/vlsi_devbox/PROJECT_SAINATH/RTL_code/pe_2x2.vcd"
+[dumpfile_mtime] "Wed Apr  1 06:18:04 2026"
+[dumpfile_size] 6061
+[savefile] "/home/vlsi_devbox/PROJECT_SAINATH/RTL_code/top_pe_waveform.gtkw"
+[timestart] 67
+[size] 1000 600
+[pos] -1 -1
+*0.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 233
+[signals_width] 94
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@22
+top_pe_2x2_tb.s4[30:0]
+top_pe_2x2_tb.s3[30:0]
+top_pe_2x2_tb.s2[30:0]
+@23
+top_pe_2x2_tb.s1[30:0]
+[pattern_trace] 1
+[pattern_trace] 0
