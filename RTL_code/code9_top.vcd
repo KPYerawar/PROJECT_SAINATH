@@ -1,0 +1,536 @@
+$date
+	Thu Apr  2 15:34:46 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module code8_top_fsm_joint_tb $end
+$var wire 31 ! s4 [30:0] $end
+$var wire 31 " s3 [30:0] $end
+$var wire 31 # s2 [30:0] $end
+$var wire 31 $ s1 [30:0] $end
+$var wire 1 % flag $end
+$var reg 1 & clk $end
+$var reg 1 ' rst $end
+$scope module j1 $end
+$var wire 1 & clk $end
+$var wire 1 % flag $end
+$var wire 1 ' rst $end
+$var wire 31 ( s1 [30:0] $end
+$var wire 31 ) s2 [30:0] $end
+$var wire 31 * s3 [30:0] $end
+$var wire 31 + s4 [30:0] $end
+$var wire 1 , valid $end
+$var wire 1 - v4_out $end
+$var wire 1 . v3_out $end
+$var wire 1 / v2_out $end
+$var wire 1 0 v1_out $end
+$var wire 4 1 in4_b_out [3:0] $end
+$var wire 31 2 in4_acc_sum [30:0] $end
+$var wire 4 3 in4_a_out [3:0] $end
+$var wire 4 4 in3_b_out [3:0] $end
+$var wire 31 5 in3_acc_sum [30:0] $end
+$var wire 4 6 in3_a_out [3:0] $end
+$var wire 4 7 in2_b_out [3:0] $end
+$var wire 31 8 in2_acc_sum [30:0] $end
+$var wire 4 9 in2_a_out [3:0] $end
+$var wire 4 : in1_b_out [3:0] $end
+$var wire 31 ; in1_acc_sum [30:0] $end
+$var wire 4 < in1_a_out [3:0] $end
+$var wire 1 = flag1 $end
+$var wire 4 > B_in_1 [3:0] $end
+$var wire 4 ? B_in_0 [3:0] $end
+$var wire 4 @ A_in_1 [3:0] $end
+$var wire 4 A A_in_0 [3:0] $end
+$scope module PE1 $end
+$var wire 4 B a_out [3:0] $end
+$var wire 4 C b_out [3:0] $end
+$var wire 1 & clk $end
+$var wire 1 ' rst $end
+$var wire 1 , valid $end
+$var wire 4 D b_in [3:0] $end
+$var wire 4 E a_in [3:0] $end
+$var reg 31 F acc_sum [30:0] $end
+$var reg 4 G aout [3:0] $end
+$var reg 4 H bout [3:0] $end
+$var reg 1 0 v_out $end
+$upscope $end
+$scope module PE2 $end
+$var wire 4 I a_in [3:0] $end
+$var wire 4 J a_out [3:0] $end
+$var wire 4 K b_out [3:0] $end
+$var wire 1 & clk $end
+$var wire 1 ' rst $end
+$var wire 1 0 valid $end
+$var wire 4 L b_in [3:0] $end
+$var reg 31 M acc_sum [30:0] $end
+$var reg 4 N aout [3:0] $end
+$var reg 4 O bout [3:0] $end
+$var reg 1 / v_out $end
+$upscope $end
+$scope module PE3 $end
+$var wire 4 P a_out [3:0] $end
+$var wire 4 Q b_in [3:0] $end
+$var wire 4 R b_out [3:0] $end
+$var wire 1 & clk $end
+$var wire 1 ' rst $end
+$var wire 1 0 valid $end
+$var wire 4 S a_in [3:0] $end
+$var reg 31 T acc_sum [30:0] $end
+$var reg 4 U aout [3:0] $end
+$var reg 4 V bout [3:0] $end
+$var reg 1 . v_out $end
+$upscope $end
+$scope module PE4 $end
+$var wire 4 W a_in [3:0] $end
+$var wire 4 X a_out [3:0] $end
+$var wire 4 Y b_in [3:0] $end
+$var wire 4 Z b_out [3:0] $end
+$var wire 1 & clk $end
+$var wire 1 ' rst $end
+$var wire 1 . valid $end
+$var reg 31 [ acc_sum [30:0] $end
+$var reg 4 \ aout [3:0] $end
+$var reg 4 ] bout [3:0] $end
+$var reg 1 - v_out $end
+$upscope $end
+$scope module in2 $end
+$var wire 1 & clk $end
+$var wire 1 ' rst $end
+$var reg 4 ^ A_in_0 [3:0] $end
+$var reg 4 _ A_in_1 [3:0] $end
+$var reg 4 ` B_in_0 [3:0] $end
+$var reg 4 a B_in_1 [3:0] $end
+$var reg 4 b a00 [3:0] $end
+$var reg 4 c a01 [3:0] $end
+$var reg 4 d a10 [3:0] $end
+$var reg 4 e a11 [3:0] $end
+$var reg 4 f b00 [3:0] $end
+$var reg 4 g b01 [3:0] $end
+$var reg 4 h b10 [3:0] $end
+$var reg 4 i b11 [3:0] $end
+$var reg 4 j counter [3:0] $end
+$var reg 1 = finish_flag $end
+$var reg 2 k state [1:0] $end
+$var reg 1 , valid $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 k
+b0 j
+bx i
+bx h
+bx g
+bx f
+bx e
+bx d
+bx c
+bx b
+bx a
+bx `
+bx _
+bx ^
+bx ]
+bx \
+bx [
+bx Z
+bx Y
+bx X
+bx W
+bx V
+bx U
+bx T
+bx S
+bx R
+bx Q
+bx P
+bx O
+bx N
+bx M
+bx L
+bx K
+bx J
+bx I
+bx H
+bx G
+bx F
+bx E
+bx D
+bx C
+bx B
+bx A
+bx @
+bx ?
+bx >
+x=
+bx <
+bx ;
+bx :
+bx 9
+bx 8
+bx 7
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+bx 1
+x0
+x/
+x.
+x-
+x,
+bx +
+bx *
+bx )
+bx (
+1'
+0&
+x%
+bx $
+bx #
+bx "
+bx !
+$end
+#10000
+b0 $
+b0 (
+b0 ;
+b0 F
+b0 :
+b0 C
+b0 Q
+b0 H
+b0 <
+b0 B
+b0 I
+b0 G
+b0 #
+b0 )
+b0 8
+b0 M
+b0 7
+b0 K
+b0 Y
+b0 O
+b0 9
+b0 J
+b0 N
+b0 "
+b0 *
+b0 5
+b0 T
+b0 4
+b0 R
+b0 V
+b0 6
+b0 P
+b0 W
+b0 U
+b0 !
+b0 +
+b0 2
+b0 [
+b0 1
+b0 Z
+b0 ]
+b0 3
+b0 X
+b0 \
+0,
+0%
+0=
+1&
+#20000
+0&
+#30000
+1&
+#40000
+0&
+#50000
+00
+bx :
+bx C
+bx Q
+bx H
+bx <
+bx B
+bx I
+bx G
+bx 7
+bx K
+bx Y
+bx O
+bx 6
+bx P
+bx W
+bx U
+b1 k
+b0 >
+b0 L
+b0 a
+b0 ?
+b0 D
+b0 `
+b0 @
+b0 S
+b0 _
+b0 A
+b0 E
+b0 ^
+1&
+0'
+#60000
+0&
+#70000
+b10 k
+b1011 i
+b1110 h
+b10 g
+b1010 f
+b1011 e
+b1110 d
+b10 c
+b1010 b
+bx 1
+bx Z
+bx ]
+bx 3
+bx X
+bx \
+0.
+bx 4
+bx R
+bx V
+b0 6
+b0 P
+b0 W
+b0 U
+0/
+b0 7
+b0 K
+b0 Y
+b0 O
+bx 9
+bx J
+bx N
+b0 :
+b0 C
+b0 Q
+b0 H
+b0 <
+b0 B
+b0 I
+b0 G
+1&
+#80000
+0&
+#90000
+b0 9
+b0 J
+b0 N
+b0 4
+b0 R
+b0 V
+0-
+b0 1
+b0 Z
+b0 ]
+b0 3
+b0 X
+b0 \
+b1 j
+1,
+b1010 ?
+b1010 D
+b1010 `
+b1010 A
+b1010 E
+b1010 ^
+1&
+#100000
+0&
+#110000
+b10 j
+b10 >
+b10 L
+b10 a
+b1110 @
+b1110 S
+b1110 _
+b1110 ?
+b1110 D
+b1110 `
+b10 A
+b10 E
+b10 ^
+b1100100 $
+b1100100 (
+b1100100 ;
+b1100100 F
+10
+b1010 :
+b1010 C
+b1010 Q
+b1010 H
+b1010 <
+b1010 B
+b1010 I
+b1010 G
+1&
+#120000
+0&
+#130000
+b10000000 $
+b10000000 (
+b10000000 ;
+b10000000 F
+b1110 :
+b1110 C
+b1110 Q
+b1110 H
+b10 <
+b10 B
+b10 I
+b10 G
+b10100 #
+b10100 )
+b10100 8
+b10100 M
+1/
+b10 7
+b10 K
+b10 Y
+b10 O
+b1010 9
+b1010 J
+b1010 N
+b10001100 "
+b10001100 *
+b10001100 5
+b10001100 T
+1.
+b1010 4
+b1010 R
+b1010 V
+b1110 6
+b1110 P
+b1110 W
+b1110 U
+b11 j
+b1011 >
+b1011 L
+b1011 a
+b1011 @
+b1011 S
+b1011 _
+b0 ?
+b0 D
+b0 `
+b0 A
+b0 E
+b0 ^
+1&
+#140000
+0&
+#150000
+0,
+b11 k
+b0 j
+b0 >
+b0 L
+b0 a
+b0 @
+b0 S
+b0 _
+b11100 !
+b11100 +
+b11100 2
+b11100 [
+1-
+b10 1
+b10 Z
+b10 ]
+b1110 3
+b1110 X
+b1110 \
+b100100110 "
+b100100110 *
+b100100110 5
+b100100110 T
+b1110 4
+b1110 R
+b1110 V
+b1011 6
+b1011 P
+b1011 W
+b1011 U
+b101010 #
+b101010 )
+b101010 8
+b101010 M
+b1011 7
+b1011 K
+b1011 Y
+b1011 O
+b10 9
+b10 J
+b10 N
+b0 :
+b0 C
+b0 Q
+b0 H
+b0 <
+b0 B
+b0 I
+b0 G
+1&
+#160000
+0&
+#170000
+00
+b0 7
+b0 K
+b0 Y
+b0 O
+b0 9
+b0 J
+b0 N
+b0 4
+b0 R
+b0 V
+b0 6
+b0 P
+b0 W
+b0 U
+b10010101 !
+b10010101 +
+b10010101 2
+b10010101 [
+b1011 1
+b1011 Z
+b1011 ]
+b1011 3
+b1011 X
+b1011 \
+1%
+1=
+1&
+#180000
+0&
+#190000
+b0 1
+b0 Z
+b0 ]
+b0 3
+b0 X
+b0 \
+0.
+0/
+1&

@@ -5,6 +5,7 @@ reg [3:0] A_in_0,A_in_1;
 reg [3:0] B_in_0,B_in_1;
 wire [30:0]s1 , s2 , s3 , s4;
 
+
 /*
 A = a00 a01     b = b00 b01
     a10 a11         b10 b11

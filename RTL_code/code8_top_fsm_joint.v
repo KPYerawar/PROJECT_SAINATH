@@ -1,8 +1,7 @@
-module code6_top_pe_2x2(
+module code8_top_fsm_joint(
 input clk , rst ,
-input [3:0] A_in_0,A_in_1,
-input [3:0] B_in_0,B_in_1,
-output [30:0]s1, s2,s3, s4    );
+output [30:0]s1, s2,s3, s4 ,
+output  flag   );
 
 wire [3:0] in1_a_out;
 wire [3:0] in1_b_out;
@@ -16,6 +15,12 @@ wire [30:0] in1_acc_sum ;
 wire [30:0] in2_acc_sum ;
 wire [30:0] in3_acc_sum ;
 wire [30:0] in4_acc_sum ;
+
+wire [3:0] A_in_0,A_in_1;
+wire [3:0] B_in_0,B_in_1;
+wire valid  ;
+wire flag1;
+
 wire v1_out , v2_out ,v3_out ,v4_out;
 
 /*
@@ -39,7 +44,8 @@ assign s3 = in3_acc_sum;
 assign s4 = in4_acc_sum;
 
 
-
+code7_valid_fsm in2 (.clk(clk),.rst(rst),.A_in_0(A_in_0),.A_in_1(A_in_1),.B_in_0(B_in_0),.B_in_1(B_in_1),.valid(valid),.finish_flag(flag1));
+assign flag = flag1;
 
 endmodule 
 

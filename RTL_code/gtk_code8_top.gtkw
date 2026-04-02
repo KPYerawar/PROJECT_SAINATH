@@ -1,0 +1,24 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Thu Apr  2 10:21:05 2026
+[*]
+[dumpfile] "/home/vlsi_devbox/PROJECT_SAINATH/RTL_code/code9_top.vcd"
+[dumpfile_mtime] "Thu Apr  2 10:04:46 2026"
+[dumpfile_size] 5671
+[savefile] "/home/vlsi_devbox/PROJECT_SAINATH/RTL_code/gtk_code8_top.gtkw"
+[timestart] 138880
+[size] 1000 600
+[pos] -1 -1
+*-14.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 233
+[signals_width] 94
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@24
+code8_top_fsm_joint_tb.s1[30:0]
+code8_top_fsm_joint_tb.s2[30:0]
+code8_top_fsm_joint_tb.s3[30:0]
+@25
+code8_top_fsm_joint_tb.s4[30:0]
+[pattern_trace] 1
+[pattern_trace] 0
