@@ -1,0 +1,8 @@
+0A  // mem[0] -> a00 (10 decimal)
+02  // mem[1] -> a01 (2 decimal)
+0E  // mem[2] -> a10 (14 decimal)
+0B  // mem[3] -> a11 (11 decimal)
+0A  // mem[4] -> b00 (10 decimal)
+02  // mem[5] -> b01 (2 decimal)
+0E  // mem[6] -> b10 (14 decimal)
+0B  // mem[7] -> b11 (11 decimal)
