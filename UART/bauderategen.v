@@ -1,6 +1,7 @@
 module bauderategen (
 input clk , rst ,
 output reg brate);
+   
 
 reg [31:0] cycle = 0 ;
 // maths 
