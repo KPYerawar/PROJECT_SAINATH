@@ -1,0 +1,26 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Sun Apr 26 14:09:32 2026
+[*]
+[dumpfile] "/home/vlsi_dev_box/Documents/PROJECT_SAINATH/PROJECT_SAINATH/UART/gtkwave.vcd"
+[dumpfile_mtime] "Sun Apr 26 13:59:19 2026"
+[dumpfile_size] 4217077
+[savefile] "/home/vlsi_dev_box/Documents/PROJECT_SAINATH/PROJECT_SAINATH/UART/tx_completed_gtk.gtkw"
+[timestart] 0
+[size] 1116 600
+[pos] -1 -1
+*-25.000000 56200500 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] test.
+[sst_width] 233
+[signals_width] 86
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@28
+test.clk
+test.rst
+test.tx
+test.tx_busy
+@29
+test.tx_req
+[pattern_trace] 1
+[pattern_trace] 0
