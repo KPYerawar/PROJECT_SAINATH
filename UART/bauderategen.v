@@ -16,14 +16,11 @@ reg [31:0] cycle = 0 ;
         cycle <= 0  ;
         brate <= 1 ; end
         else begin
-        cycle = cycle + 1 ;
+        cycle <= cycle + 1 ;
         brate <= 0 ;
         end end
         
   
         
-     initial begin 
-     #4000;
-     $monitor ("cycle = %d , brate = %d" , cycle , brate   );
-     end 
+    
         endmodule 
